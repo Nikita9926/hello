@@ -172,6 +172,7 @@ void TSM(vector<vector<int>> start_matrix) {
 void new_fun()
 {
 	cout << "Are you algoritmist, aren't you?"<<endl;
+	cout << "It's my fun!" << endl;
 }
 
 int main()
