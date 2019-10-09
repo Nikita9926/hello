@@ -28,7 +28,6 @@ void disp(vector<vector<int>> start_matrix1) {
 	}
 }
 
-
 vector<vector<int>> Privedenie(vector<vector<int>> start_matrix1,int &R) {
 	vector<int> hi, hj;
 	for (size_t i = 0; i < start_matrix1.size(); i++) {
@@ -86,7 +85,6 @@ vector<vector<int>> Privedenie(vector<vector<int>> start_matrix1,int &R) {
 	return start_matrix1;
 
 }
-
 
 void TSM(vector<vector<int>> start_matrix) {
 	vector<vector<int>> start_matrix1 = start_matrix;
@@ -171,7 +169,11 @@ void TSM(vector<vector<int>> start_matrix) {
 
 }
 
-
+void new_fun()
+{
+	cout << "Are you algoritmist, aren't you?"<<endl;
+	cout << "It's my fun!" << endl;
+}
 
 int main()
 {
